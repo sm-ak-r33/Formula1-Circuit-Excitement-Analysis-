@@ -1,0 +1,478 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.2">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="90" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\CBS\Visual Analytics\final\data\alteryx calculations\improved_results.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>improved_results.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="resultId" size="254" source="File: C:\CBS\Visual Analytics\final\data\alteryx calculations\improved_results.csv" type="V_String" />
+            <Field name="raceId" size="254" source="File: C:\CBS\Visual Analytics\final\data\alteryx calculations\improved_results.csv" type="V_String" />
+            <Field name="driverId" size="254" source="File: C:\CBS\Visual Analytics\final\data\alteryx calculations\improved_results.csv" type="V_String" />
+            <Field name="constructorId" size="254" source="File: C:\CBS\Visual Analytics\final\data\alteryx calculations\improved_results.csv" type="V_String" />
+            <Field name="number" size="254" source="File: C:\CBS\Visual Analytics\final\data\alteryx calculations\improved_results.csv" type="V_String" />
+            <Field name="grid" size="254" source="File: C:\CBS\Visual Analytics\final\data\alteryx calculations\improved_results.csv" type="V_String" />
+            <Field name="position" size="254" source="File: C:\CBS\Visual Analytics\final\data\alteryx calculations\improved_results.csv" type="V_String" />
+            <Field name="positionText" size="254" source="File: C:\CBS\Visual Analytics\final\data\alteryx calculations\improved_results.csv" type="V_String" />
+            <Field name="positionOrder" size="254" source="File: C:\CBS\Visual Analytics\final\data\alteryx calculations\improved_results.csv" type="V_String" />
+            <Field name="points" size="254" source="File: C:\CBS\Visual Analytics\final\data\alteryx calculations\improved_results.csv" type="V_String" />
+            <Field name="laps" size="254" source="File: C:\CBS\Visual Analytics\final\data\alteryx calculations\improved_results.csv" type="V_String" />
+            <Field name="time" size="254" source="File: C:\CBS\Visual Analytics\final\data\alteryx calculations\improved_results.csv" type="V_String" />
+            <Field name="milliseconds" size="254" source="File: C:\CBS\Visual Analytics\final\data\alteryx calculations\improved_results.csv" type="V_String" />
+            <Field name="fastestLap" size="254" source="File: C:\CBS\Visual Analytics\final\data\alteryx calculations\improved_results.csv" type="V_String" />
+            <Field name="rank" size="254" source="File: C:\CBS\Visual Analytics\final\data\alteryx calculations\improved_results.csv" type="V_String" />
+            <Field name="fastestLapTime" size="254" source="File: C:\CBS\Visual Analytics\final\data\alteryx calculations\improved_results.csv" type="V_String" />
+            <Field name="fastestLapSpeed" size="254" source="File: C:\CBS\Visual Analytics\final\data\alteryx calculations\improved_results.csv" type="V_String" />
+            <Field name="statusId" size="254" source="File: C:\CBS\Visual Analytics\final\data\alteryx calculations\improved_results.csv" type="V_String" />
+            <Field name="Max_grid" size="254" source="File: C:\CBS\Visual Analytics\final\data\alteryx calculations\improved_results.csv" type="V_String" />
+            <Field name="complete_position" size="254" source="File: C:\CBS\Visual Analytics\final\data\alteryx calculations\improved_results.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="90" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\CBS\Visual Analytics\final\data\races.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>races.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="raceId" size="254" source="File: C:\CBS\Visual Analytics\final\data\races.csv" type="V_String" />
+            <Field name="year" size="254" source="File: C:\CBS\Visual Analytics\final\data\races.csv" type="V_String" />
+            <Field name="round" size="254" source="File: C:\CBS\Visual Analytics\final\data\races.csv" type="V_String" />
+            <Field name="circuitId" size="254" source="File: C:\CBS\Visual Analytics\final\data\races.csv" type="V_String" />
+            <Field name="name" size="254" source="File: C:\CBS\Visual Analytics\final\data\races.csv" type="V_String" />
+            <Field name="date" size="254" source="File: C:\CBS\Visual Analytics\final\data\races.csv" type="V_String" />
+            <Field name="time" size="254" source="File: C:\CBS\Visual Analytics\final\data\races.csv" type="V_String" />
+            <Field name="url" size="254" source="File: C:\CBS\Visual Analytics\final\data\races.csv" type="V_String" />
+            <Field name="fp1_date" size="254" source="File: C:\CBS\Visual Analytics\final\data\races.csv" type="V_String" />
+            <Field name="fp1_time" size="254" source="File: C:\CBS\Visual Analytics\final\data\races.csv" type="V_String" />
+            <Field name="fp2_date" size="254" source="File: C:\CBS\Visual Analytics\final\data\races.csv" type="V_String" />
+            <Field name="fp2_time" size="254" source="File: C:\CBS\Visual Analytics\final\data\races.csv" type="V_String" />
+            <Field name="fp3_date" size="254" source="File: C:\CBS\Visual Analytics\final\data\races.csv" type="V_String" />
+            <Field name="fp3_time" size="254" source="File: C:\CBS\Visual Analytics\final\data\races.csv" type="V_String" />
+            <Field name="quali_date" size="254" source="File: C:\CBS\Visual Analytics\final\data\races.csv" type="V_String" />
+            <Field name="quali_time" size="254" source="File: C:\CBS\Visual Analytics\final\data\races.csv" type="V_String" />
+            <Field name="sprint_date" size="254" source="File: C:\CBS\Visual Analytics\final\data\races.csv" type="V_String" />
+            <Field name="sprint_time" size="254" source="File: C:\CBS\Visual Analytics\final\data\races.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="186" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="raceId" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="raceId" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_round" selected="False" input="Left_" />
+                <SelectField field="Left_circuitId" selected="False" input="Left_" />
+                <SelectField field="Left_name" selected="False" input="Left_" />
+                <SelectField field="Left_date" selected="False" input="Left_" />
+                <SelectField field="Left_time" selected="False" input="Left_" />
+                <SelectField field="Left_url" selected="False" input="Left_" />
+                <SelectField field="Left_fp1_date" selected="False" input="Left_" />
+                <SelectField field="Left_fp1_time" selected="False" input="Left_" />
+                <SelectField field="Left_fp2_date" selected="False" input="Left_" />
+                <SelectField field="Left_fp2_time" selected="False" input="Left_" />
+                <SelectField field="Left_fp3_date" selected="False" input="Left_" />
+                <SelectField field="Left_fp3_time" selected="False" input="Left_" />
+                <SelectField field="Left_quali_date" selected="False" input="Left_" />
+                <SelectField field="Left_quali_time" selected="False" input="Left_" />
+                <SelectField field="Left_sprint_date" selected="False" input="Left_" />
+                <SelectField field="Left_sprint_time" selected="False" input="Left_" />
+                <SelectField field="Right_resultId" selected="False" input="Right_" />
+                <SelectField field="Right_raceId" selected="False" rename="Right_raceId" input="Right_" />
+                <SelectField field="Right_constructorId" selected="False" input="Right_" />
+                <SelectField field="Right_number" selected="False" input="Right_" />
+                <SelectField field="Right_grid" selected="False" input="Right_" />
+                <SelectField field="Right_position" selected="False" input="Right_" />
+                <SelectField field="Right_positionText" selected="False" input="Right_" />
+                <SelectField field="Right_positionOrder" selected="False" input="Right_" />
+                <SelectField field="Right_points" selected="False" input="Right_" />
+                <SelectField field="Right_laps" selected="False" input="Right_" />
+                <SelectField field="Right_time" selected="False" rename="Right_time" input="Right_" />
+                <SelectField field="Right_milliseconds" selected="False" input="Right_" />
+                <SelectField field="Right_fastestLap" selected="False" input="Right_" />
+                <SelectField field="Right_rank" selected="False" input="Right_" />
+                <SelectField field="Right_fastestLapTime" selected="False" input="Right_" />
+                <SelectField field="Right_fastestLapSpeed" selected="False" input="Right_" />
+                <SelectField field="Right_statusId" selected="False" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="186" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\CBS\Visual Analytics\final\data\driver_final_standings.xlsx|||`driver_final_standings$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>driver_final_standings.xlsx
+Query=`driver_final_standings$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="year" size="255" source="File: C:\CBS\Visual Analytics\final\data\driver_final_standings.xlsx|||`driver_final_standings$`" type="V_String" />
+            <Field name="raceId" size="255" source="File: C:\CBS\Visual Analytics\final\data\driver_final_standings.xlsx|||`driver_final_standings$`" type="V_String" />
+            <Field name="driverId" size="255" source="File: C:\CBS\Visual Analytics\final\data\driver_final_standings.xlsx|||`driver_final_standings$`" type="V_String" />
+            <Field name="points" size="255" source="File: C:\CBS\Visual Analytics\final\data\driver_final_standings.xlsx|||`driver_final_standings$`" type="V_String" />
+            <Field name="position" size="255" source="File: C:\CBS\Visual Analytics\final\data\driver_final_standings.xlsx|||`driver_final_standings$`" type="V_String" />
+            <Field name="wins" size="255" source="File: C:\CBS\Visual Analytics\final\data\driver_final_standings.xlsx|||`driver_final_standings$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="294" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="year" />
+            <Field field="driverId" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="year" />
+            <Field field="driverId" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_complete_position" selected="True" rename="race_finish" input="Left_" />
+                <SelectField field="Right_year" selected="False" rename="Right_year" input="Right_" />
+                <SelectField field="Right_raceId" selected="False" rename="Right_raceId" input="Right_" />
+                <SelectField field="Right_driverId" selected="False" rename="Right_driverId" input="Right_" />
+                <SelectField field="Right_points" selected="False" input="Right_" />
+                <SelectField field="Right_position" selected="True" rename="season_finish" input="Right_" />
+                <SelectField field="Right_wins" selected="False" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+        <Position x="474" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldType>Numeric</FieldType>
+          <Fields orderChanged="False">
+            <Field name="race_finish" />
+            <Field name="Max_grid" selected="False" />
+            <Field name="season_finish" selected="False" />
+            <Field name="*Unknown" selected="False" />
+          </Fields>
+          <NewFieldAddOn>_difference</NewFieldAddOn>
+          <NewFieldAddOnPos>Suffix</NewFieldAddOnPos>
+          <CopyOutput value="True" />
+          <Expression>if race_finish==Max_grid then abs([race_finish]-[season_finish])/4 else abs([race_finish]-[season_finish]) endif</Expression>
+          <ChangeFieldType value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>if race_finish==Max_grid then abs([race_finish]-[season_finis...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="378" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Max_grid" selected="True" type="Double" size="8" />
+            <SelectField field="race_finish" selected="True" type="Double" size="8" />
+            <SelectField field="season_finish" selected="True" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="570" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="raceId" action="GroupBy" rename="raceId" />
+            <SummarizeField field="race_finish_difference" action="Avg" rename="Avg_race_finish_difference" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="666" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\CBS\Visual Analytics\final\data\alteryx calculations\finish_difference.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>finish_difference.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="570" y="18" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="year" action="GroupBy" rename="year" />
+            <SummarizeField field="race_finish_difference" action="Avg" rename="Avg_race_finish_difference" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="666" y="18" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\CBS\Visual Analytics\final\data\alteryx calculations\seasonal_finish_differences.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>seasonal_finish_differences.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Join" />
+      <Destination ToolID="5" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Join" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>finish_difference</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
